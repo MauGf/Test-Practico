@@ -19,13 +19,13 @@ $siteName = config('app.name');
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script></head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-        <a class="navbar-brand" href="{{ url('/alumnos') }}">{{ $siteName }}</a>
+        <a class="navbar-brand" href="{{ url('/') }}">{{ $siteName }}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                
+            
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('alumnos') }}">Alumnos</a>
                 </li>

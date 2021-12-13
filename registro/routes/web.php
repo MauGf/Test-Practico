@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('alumnos.index');
+    return view('welcome');
 });
 
 //grados ruta
