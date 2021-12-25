@@ -1,6 +1,5 @@
 # Test-Practico
-Test Practico GSatelite
-
+Test Practico 
 
 ```
 MySQL  
